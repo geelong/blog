@@ -16,7 +16,7 @@
 ###[APK多渠道打包方案汇总](http://blog.csdn.net/masonblog/article/details/51263006)
 
 
-###[link](link)
+###[深入理解Android之Java虚拟机Dalvik](http://blog.csdn.net/innost/article/details/50377905)
 ###[link](link)
 ###[link](link)
 ###[link](link)
