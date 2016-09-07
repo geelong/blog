@@ -182,4 +182,21 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 export PATH=${JAVA_HOME}/bin:$PATH
 ```
 
+### 调整磁盘空间的大小
+```bash
+hdiutil resize -size <new-size-you-want>g ~/android.dmg.sparseimage
+```
 
+使用mountAndroid来挂载映像：
+
+### mount the android file image
+function mountAndroid { hdiutil attach ~/android.dmg -mountpoint /Volumes/android; }
+使用 umountAndroid取消挂载:
+
+### unmount the android file image
+function umountAndroid() { hdiutil detach /Volumes/android; }
+完成后，就可以看见在/Volumes/中挂载了一个叫android的磁盘。
+
+文／陈哈哈（简书作者）
+原文链接：http://www.jianshu.com/p/f0356e3ea330
+著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。
