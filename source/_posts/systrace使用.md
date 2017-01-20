@@ -4,7 +4,6 @@ date: 2016-12-01 16:39:56
 tags:
 ---
 
-
 参考文章：
 
 - [性能工具Systrace](http://gityuan.com/2016/01/17/systrace/)
@@ -96,3 +95,16 @@ Android systrace "Could not find an importer for the provided eventData" error r
 2. in the tracing page, click load and select the systrace generated html file
 
 This works for me.
+
+
+
+## systrace 使用
+- Trace.beginSection、Trace.endSection()配套使用
+- systrace.py 的时候需要指定包名（--app=包名）
+- 结果上把图缩到最小，然后搜索对应tag,再ctrl+f 对焦到该区域
+- 先执行收集的命令，过一会再打开app,否则启动那块数据收集不上
+
+
+
+
+

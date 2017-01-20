@@ -1,0 +1,10 @@
+- 路径
+	- /Users/geelong/blog3_hexo
+- 生成
+	- hexo generate -d 
+- 启动服务
+	- hexo server
+	- http://localhost:4000/.
+- 上传
+	- cd /Users/geelong/blog3_hexo/public
+	-  gitci "update"
