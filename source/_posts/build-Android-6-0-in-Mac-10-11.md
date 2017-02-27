@@ -59,7 +59,12 @@ out/target/product/shamu/system.img+out/target/product/shamu/obj/PACKAGING/recov
 
 ### 刷入系统
 
-`$ fastboot flashall -w`
+```bash
+export ANDROID_PRODUCT_OUT=/Volumes/android/6.0.0_r2/out/target/product/shamu
+ 
+ 
+fastboot flashall -w
+```
 
 刷机信息  
 
